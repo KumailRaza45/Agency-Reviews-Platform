@@ -30,17 +30,11 @@ Agency Reviews is a full-stack platform designed to help businesses discover, re
   <img src="./public/screenshots/UI-3.png" width="250"/>
   <img src="./public/screenshots/UI-4.png" width="250"/>
   <img src="./public/screenshots/UI-5.png" width="250"/>
-</p>
-
-<p float="left">
   <img src="./public/screenshots/UI-6.png" width="250"/>
   <img src="./public/screenshots/UI-7.png" width="250"/>
   <img src="./public/screenshots/UI-8.png" width="250"/>
   <img src="./public/screenshots/UI-9.png" width="250"/>
   <img src="./public/screenshots/UI-10.png" width="250"/>
-</p>
-
-<p float="left">
   <img src="./public/screenshots/UI-11.png" width="250"/>
   <img src="./public/screenshots/UI-12.png" width="250"/>
   <img src="./public/screenshots/UI-13.png" width="250"/>
