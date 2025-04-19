@@ -1,0 +1,261 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+@font-face {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+} */
+
+.card-shadow {
+  -moz-box-shadow: 0 0 5px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+}
+.maxwidth-auto {
+  max-width: 100px !important;
+}
+.slick-initialized .slick-slide {
+  display: block;
+  padding: 0px 20px !important;
+}
+.slick-slide {
+  padding: 0px 20px !important;
+}
+
+.slick-prev {
+  background-color: #329bfa !important;
+  height: 85px;
+  width: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 4px;
+}
+.slick-next {
+  background-color: #329bfa !important;
+  height: 85px;
+  width: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 4px;
+}
+
+.custom-scroll-bar {
+  margin: 5px;
+}
+
+.custom-scroll-bar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scroll-bar::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.custom-scroll-bar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.custom-scroll-bar::-webkit-scrollbar-thumb:hover {
+  background: #747272;
+}
+.portfolio-slider .slick-prev {
+  background-color: transparent !important;
+}
+
+.portfolio-slider .slick-next {
+  background-color: transparent !important;
+}
+
+.portfolio-slider .slick-next:before {
+  content: url("assets/Icons/PorArrowRight.svg");
+}
+
+.portfolio-slider .slick-prev:before {
+  content: url("assets/Icons/ArrowLeft.svg");
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.react-tagsinput {
+  width: 100%;
+  padding: 0px;
+  border-radius: 8px;
+  font-size: 14px;
+  border: 1px solid rgb(208, 213, 221);
+  outline: none;
+}
+.react-tagsinput-input {
+  border: none;
+  padding: 8px !important;
+  margin: 7px;
+  height: 29px;
+  box-shadow: none;
+  width: 300px !important;
+}
+.react-tagsinput-tag {
+  background: transparent !important;
+  border: 1px solid rgb(208, 213, 221);
+  border-radius: 8px;
+  color: rgb(38, 36, 36);
+  margin-left: 8px;
+}
+/* Set default font-family */
+.ql-editor {
+  font-family: "Roboto";
+}
+.ql-editor em {
+  font-style: italic !important;
+}
+/* Set dropdown font-families */
+
+.ql-picker.ql-font .ql-picker-label[data-value="Ubuntu"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="Ubuntu"]::before {
+  font-family: "Ubuntu", sans-serif;
+  content: "Ubuntu";
+}
+.ql-picker.ql-font .ql-picker-label[data-value="Raleway"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="Raleway"]::before {
+  font-family: "Raleway", sans-serif;
+  content: "Raleway";
+}
+.ql-picker.ql-font .ql-picker-label[data-value="Roboto"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="Roboto"]::before {
+  font-family: "Roboto", sans-serif;
+  content: "Roboto";
+}
+.ql-picker.ql-font .ql-picker-label[data-value="Inter"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="Inter"]::before {
+  font-family: "Inter", sans-serif;
+  content: "Inter";
+}
+.ql-picker.ql-font .ql-picker-label[data-value="Montserrat"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="Montserrat"]::before {
+  font-family: "Montserrat", sans-serif;
+  content: "Montserrat";
+}
+.ql-picker.ql-font .ql-picker-label[data-value="Lato"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="Lato"]::before {
+  font-family: "Lato", sans-serif;
+  content: "Lato";
+}
+.ql-picker.ql-font .ql-picker-label[data-value="Rubik"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="Rubik"]::before {
+  font-family: "Rubik", sans-serif;
+  content: "Rubik";
+}
+/* Set content font-families */
+.ql-font-Raleway {
+  font-family: "Raleway";
+}
+.ql-font-Roboto {
+  font-family: "Roboto";
+}
+.ql-font-Ubuntu {
+  font-family: "Ubuntu";
+}
+.ql-font-Inter {
+  font-family: "Inter";
+}
+.ql-font-Montserrat {
+  font-family: "Montserrat";
+}
+.ql-font-Montserrat {
+  font-family: "Lato";
+}
+.ql-font-Montserrat {
+  font-family: "Rubik";
+}
+/* We do not set Courier since it is the default font */
+
+body {
+  font-family: sans-serif;
+}
+
+.app {
+  margin: 1rem 4rem;
+}
+
+.app .ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc;
+}
+
+/* Snow Theme */
+.app .ql-snow.ql-toolbar {
+  display: block;
+  background: #eaecec;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+/* Bubble Theme */
+.app .ql-bubble .ql-editor {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.app .ql-editor {
+  min-height: 18em;
+}
+
+.themeSwitcher {
+  margin-top: 0.5em;
+  font-size: small;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.text-2-lines {
+   overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
+
+.text-6-lines {
+   overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 6; /* number of lines to show */
+           line-clamp: 6; 
+   -webkit-box-orient: vertical;
+}
+
+.PhoneInputInput{
+  border: none !important
+}
+
+.PhoneInputInput:focus{
+  border: none !important;
+  outline: none !important
+}
+
+
+@media only screen and (min-width: 800px) {
+  .getMacthedTab:hover{
+    background-color: #3364F7;
+    color: white !important;
+  }
+}
+
+/* .custom-modal{
+  width: calc(100vh - 32px);
+} */

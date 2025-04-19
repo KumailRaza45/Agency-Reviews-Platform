@@ -1,0 +1,31 @@
+.get-matched-modal-container {
+  width: calc(100% - 32px);
+  border-radius: 12px;
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03),
+    0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+}
+.text-color {
+  color: var(--gray-700, #344054);
+}
+.background {
+  background-color: var(--gray-200, #eaecf0);
+}
+input {
+  border: 1px solid var(--gray-300, #d0d5dd);
+  outline: none;
+}
+
+.cap-btn:hover{
+  color: white !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .get-matched-modal-container{
+    height: min-content !important;
+  }
+}
+
+.result-box-modal{
+  width: calc(100% - 32px);
+   /* height: min-content !important; */
+}

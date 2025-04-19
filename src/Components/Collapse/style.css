@@ -1,0 +1,12 @@
+.collapse-button {
+    display: block;
+  
+  }
+  
+  .collapse-content.collapsed {
+    display: none;
+  }
+  
+  .collapsed-content.expanded {
+    display: block;
+  }

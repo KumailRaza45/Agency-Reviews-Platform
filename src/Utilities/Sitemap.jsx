@@ -1,0 +1,43 @@
+/* eslint-disable import/no-anonymous-default-export */
+import React from 'react'
+
+export default function () {
+
+	const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.agencyreviews.io/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.agencyreviews.io/blogs</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.agencyreviews.io/terms</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+		
+    </url>
+	
+	 <url>
+        <loc>https://www.agencyreviews.io/privacy</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+		
+    </url>
+    <!-- Add more URLs for the rest of your website pages -->
+</urlset>
+`;
+
+
+	return (
+		<div>
+			<pre style={{ whiteSpace: 'pre-wrap' }}>
+				{sitemapContent}
+			</pre>
+		</div>
+	)
+}

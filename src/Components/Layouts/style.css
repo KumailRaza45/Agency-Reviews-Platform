@@ -1,0 +1,24 @@
+.tabs-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    /* border-bottom: 1px solid var(--gray-200, #EAECF0); */
+    height: 36px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.tabs-container span{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    height: 100%;
+    color: #667085;
+    cursor: pointer;
+}
+
+.tabs-container .selected-tab{
+    color: #2E5ADE;
+    border-bottom: 2px solid var(--primary-700, #2E5ADE);
+}

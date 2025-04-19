@@ -1,0 +1,131 @@
+.custom-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.contact-us-modal-container{
+     outline: none;
+    padding: 24px;
+    display: flex;
+    width: 480px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    background: white;
+    /* Shadow/xl */
+    box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.contact-us-modal-container .title{
+    color: #101828;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px
+}
+
+.contact-us-modal-container .type-of-tickets .header{
+    color: #344054;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal !important;
+}
+
+.contact-us-modal-container .type-of-tickets .MuiInputBase-root{
+    height: 40px !important;
+    min-height: 40px !important;
+    width: 100% !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    font-style: normal !important;
+}
+
+em{
+     font-style: normal !important;
+}
+
+.contact-us-modal-container .type-of-tickets textarea{
+    height: 118px !important;
+    min-height: 118px !important;
+    width: 100% !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.contact-us-modal-container .type-of-tickets .MuiInputBase-root legend{
+    display: none !important;
+}
+
+.contact-us-modal-container .btn-container{
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.contact-us-modal-container .btn-container button{
+    border-radius: 8px;
+    border: 1px solid var(--gray-300, #D0D5DD);
+    background: var(--base-white, #FFF);
+    padding: 10px 18px;
+    height: 44px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    width: 100%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #344054;
+}
+
+.contact-us-modal-container .btn-container .submit{
+    background-color: #329BFA;
+    color: #FFFFFF;
+}
+
+.modal-pdf{
+    outline: none;
+    width: 100%;
+    max-width: 800px;
+    height: 90vh;
+   
+    display: flex;
+    align-items: center;
+}
+
+.modal-pdf .con{
+ overflow: scroll;
+ width: max-content;
+}
+
+@media screen and (min-width: 480px) {
+    .modal-pdf canvas {
+        width: 100% !important;
+    
+    }
+
+       
+}
+
+@media screen and (max-width: 480px) {
+    .modal-pdf .con {
+        width: 100% !important;
+    
+    }
+
+       
+}
+    
